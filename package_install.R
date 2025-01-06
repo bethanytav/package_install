@@ -11,3 +11,6 @@ pkgs <- c("tidyverse","psych","ggforce","patchwork", "rstatix",
           "visdat", "janitor", "here", "plotly", "DataExplorer", "knitr")
 
 lapply(pkgs[!(pkgs %in% installed.packages())], install.packages)
+
+## Add final message
+print("You are incredible at coding. Amazing.")
